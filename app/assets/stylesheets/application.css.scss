@@ -59,8 +59,22 @@ h1, h2, h3 {
     }
 }
 
-//homepage style
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #FF4E50;
+}
+
+
+//homepage style
 .homecallout {
     margin-top: -20px;
     padding-top: 30px;
