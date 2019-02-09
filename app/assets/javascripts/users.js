@@ -50,14 +50,12 @@ $(document).on('turbolinks:load', function(){
         exp_year: expYear
       }, stripeResponseHandler);
     }
-        
-  
-    
+
     return false;
   });
   
   //Stripe will return back with a card token.
-  function stripeResponseHendler(status, response) {
+  function stripeResponseHandler(status, response) {
     // Get the token from the response
     var token = response.id;
     
