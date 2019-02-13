@@ -2,7 +2,7 @@ class UsersController < ApplicationController
   before_action :authenticate_user!
   
   def index
-    
+    @users = User.includes(:profile)
   end   
   
   #when GET request is made to /users/:id
